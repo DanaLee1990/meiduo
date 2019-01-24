@@ -1,0 +1,9 @@
+
+
+{{ object.name }}
+{{ object.caption }}
+{{ object.id }}
+
+# object 可以理解为sku的对象，
+# 此模板指明当将关键词通过text参数名传递时，
+# 可以通过sku的name、caption、id来进行关键字索引查询。
